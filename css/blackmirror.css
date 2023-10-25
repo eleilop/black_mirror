@@ -29,3 +29,20 @@ h1 {font-family: titulos;
 #wrapper {background-color: #565b64;
           width: 80%; /* El contenido de la página no llega de punta a punta */
           margin: auto;} /* Se centra el contenido de la página */
+
+#hero {background-image: url(../img/hero.webp);
+      background-size: cover;
+      height: 90vh;
+}
+
+#hero button {margin-top: 55vh;     /* Esta no es la solución (ES MUY CUTRE) */
+              margin-left: 16vw;    /* Tenemos que aprender POSICIONAMIENTOS */
+              border: none;
+              font-weight: bold;
+              font-size: 1em;
+              padding: 6px 30px;
+              border-radius: 10px;
+              background-color: aliceblue;
+}
+
+#hero button:hover {background-color: rgb(163, 177, 189);}
